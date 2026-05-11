@@ -1,7 +1,7 @@
 const express = require("express");
 
 const {
-  getActivities, GIT 12
+  getActivities, 
   addActivity,
 } = require("../controllers/activity.controller");
 const auth = require("../middleware/auth");
