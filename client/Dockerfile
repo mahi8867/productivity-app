@@ -13,7 +13,7 @@ RUN npm install
 # Layer 5: Copying all the files from the root of the project to the `app` directory in the container.
 COPY . .
 
-# Layer 6: Telling Docker that the container will listen on port 8080.
+# Layer 6: Telling Docker that the container will listen on port 3000.
 EXPOSE 3000
 
 # Layer 7: Telling Docker to run the `npm start` command when the container is started.
